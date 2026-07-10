@@ -1,0 +1,9 @@
+name: forgetop-it-cb1559f2
+on:
+  workflow_dispatch:
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    environment: forgetop-it-cb1559f2
+    steps:
+      - run: echo approved
