@@ -1,9 +1,0 @@
-name: forgetop-it-daed4891
-on:
-  workflow_dispatch:
-jobs:
-  gate:
-    runs-on: ubuntu-latest
-    environment: forgetop-it-daed4891
-    steps:
-      - run: echo approved
