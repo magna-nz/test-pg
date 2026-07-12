@@ -1,0 +1,9 @@
+name: forgetop-it-c920d15f
+on:
+  workflow_dispatch:
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    environment: forgetop-it-c920d15f
+    steps:
+      - run: echo approved
