@@ -1,0 +1,9 @@
+name: forgetop-it-a23df365
+on:
+  workflow_dispatch:
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    environment: forgetop-it-a23df365
+    steps:
+      - run: echo approved
