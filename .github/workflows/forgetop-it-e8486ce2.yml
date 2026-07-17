@@ -1,0 +1,9 @@
+name: forgetop-it-e8486ce2
+on:
+  workflow_dispatch:
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    environment: forgetop-it-e8486ce2
+    steps:
+      - run: echo approved
