@@ -1,0 +1,9 @@
+name: forgetop-it-256f8589
+on:
+  workflow_dispatch:
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    environment: forgetop-it-256f8589
+    steps:
+      - run: echo approved
