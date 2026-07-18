@@ -1,9 +1,0 @@
-name: forgetop-it-e43ccdac
-on:
-  workflow_dispatch:
-jobs:
-  gate:
-    runs-on: ubuntu-latest
-    environment: forgetop-it-e43ccdac
-    steps:
-      - run: echo approved
