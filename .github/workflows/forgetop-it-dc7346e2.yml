@@ -1,9 +1,0 @@
-name: forgetop-it-dc7346e2
-on:
-  workflow_dispatch:
-jobs:
-  gate:
-    runs-on: ubuntu-latest
-    environment: forgetop-it-dc7346e2
-    steps:
-      - run: echo approved
