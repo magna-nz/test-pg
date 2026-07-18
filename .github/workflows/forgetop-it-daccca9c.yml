@@ -1,9 +1,0 @@
-name: forgetop-it-daccca9c
-on:
-  workflow_dispatch:
-jobs:
-  gate:
-    runs-on: ubuntu-latest
-    environment: forgetop-it-daccca9c
-    steps:
-      - run: echo approved
