@@ -1,0 +1,9 @@
+name: forgetop-it-dd4c7256
+on:
+  workflow_dispatch:
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    environment: forgetop-it-dd4c7256
+    steps:
+      - run: echo approved
