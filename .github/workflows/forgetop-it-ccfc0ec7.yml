@@ -1,0 +1,9 @@
+name: forgetop-it-ccfc0ec7
+on:
+  workflow_dispatch:
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    environment: forgetop-it-ccfc0ec7
+    steps:
+      - run: echo approved
