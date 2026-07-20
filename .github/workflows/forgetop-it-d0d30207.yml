@@ -1,8 +1,0 @@
-name: forgetop-it-d0d30207
-on:
-  workflow_dispatch:
-jobs:
-  long-running:
-    runs-on: ubuntu-latest
-    steps:
-      - run: sleep 120
