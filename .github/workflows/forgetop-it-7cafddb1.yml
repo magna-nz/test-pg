@@ -1,9 +1,0 @@
-name: forgetop-it-7cafddb1
-on:
-  workflow_dispatch:
-jobs:
-  gate:
-    runs-on: ubuntu-latest
-    environment: forgetop-it-7cafddb1
-    steps:
-      - run: echo approved
