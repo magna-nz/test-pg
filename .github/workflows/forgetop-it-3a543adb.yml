@@ -1,9 +1,0 @@
-name: forgetop-it-3a543adb
-on:
-  workflow_dispatch:
-jobs:
-  gate:
-    runs-on: ubuntu-latest
-    environment: forgetop-it-3a543adb
-    steps:
-      - run: echo approved
