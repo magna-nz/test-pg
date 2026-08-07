@@ -1,0 +1,9 @@
+name: forgetop-it-f8215115
+on:
+  workflow_dispatch:
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    environment: forgetop-it-f8215115
+    steps:
+      - run: echo approved
