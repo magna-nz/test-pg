@@ -1,9 +1,0 @@
-name: forgetop-it-657d21ad
-on:
-  workflow_dispatch:
-jobs:
-  gate:
-    runs-on: ubuntu-latest
-    environment: forgetop-it-657d21ad
-    steps:
-      - run: echo approved
