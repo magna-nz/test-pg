@@ -1,8 +1,0 @@
-name: forgetop-it-5573de2c
-on:
-  workflow_dispatch:
-jobs:
-  long-running:
-    runs-on: ubuntu-latest
-    steps:
-      - run: sleep 120
