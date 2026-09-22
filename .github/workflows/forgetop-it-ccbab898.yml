@@ -1,9 +1,0 @@
-name: forgetop-it-ccbab898
-on:
-  workflow_dispatch:
-jobs:
-  gate:
-    runs-on: ubuntu-latest
-    environment: forgetop-it-ccbab898
-    steps:
-      - run: echo approved
