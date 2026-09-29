@@ -1,0 +1,9 @@
+name: forgetop-it-f2db769c
+on:
+  workflow_dispatch:
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    environment: forgetop-it-f2db769c
+    steps:
+      - run: echo approved
