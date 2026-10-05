@@ -1,9 +1,0 @@
-name: forgetop-it-ba5620fb
-on:
-  workflow_dispatch:
-jobs:
-  gate:
-    runs-on: ubuntu-latest
-    environment: forgetop-it-ba5620fb
-    steps:
-      - run: echo approved
