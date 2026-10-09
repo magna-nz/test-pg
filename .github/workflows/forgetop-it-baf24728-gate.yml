@@ -1,9 +1,0 @@
-name: forgetop-it-baf24728
-on:
-  workflow_dispatch:
-jobs:
-  gate:
-    runs-on: ubuntu-latest
-    environment: forgetop-it-baf24728
-    steps:
-      - run: echo approved
