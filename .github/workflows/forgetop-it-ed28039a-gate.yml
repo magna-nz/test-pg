@@ -1,0 +1,9 @@
+name: forgetop-it-ed28039a
+on:
+  workflow_dispatch:
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    environment: forgetop-it-ed28039a
+    steps:
+      - run: echo approved
