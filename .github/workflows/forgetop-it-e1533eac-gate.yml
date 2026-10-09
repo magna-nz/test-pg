@@ -1,9 +1,0 @@
-name: forgetop-it-e1533eac
-on:
-  workflow_dispatch:
-jobs:
-  gate:
-    runs-on: ubuntu-latest
-    environment: forgetop-it-e1533eac
-    steps:
-      - run: echo approved
