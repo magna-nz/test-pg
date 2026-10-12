@@ -1,9 +1,0 @@
-name: forgetop-it-edcd518a
-on:
-  workflow_dispatch:
-jobs:
-  gate:
-    runs-on: ubuntu-latest
-    environment: forgetop-it-edcd518a
-    steps:
-      - run: echo approved
