@@ -1,0 +1,8 @@
+name: forgetop-inbox-check
+on:
+  workflow_dispatch:
+jobs:
+  fail:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "A deliberate failure so the forgetop inbox gets a CI failed notification"; exit 1
