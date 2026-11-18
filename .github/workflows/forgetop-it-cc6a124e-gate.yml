@@ -1,9 +1,0 @@
-name: forgetop-it-cc6a124e
-on:
-  workflow_dispatch:
-jobs:
-  gate:
-    runs-on: ubuntu-latest
-    environment: forgetop-it-cc6a124e
-    steps:
-      - run: echo approved
